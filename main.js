@@ -22,8 +22,8 @@ function win(userchoice,computerchoice){
     computerscore_span.innerHTML=computerscore;
     const small_user="user".fontsize(3).sub();
     const small_comp="comp".fontsize(3).sub();
-    result_p.innerHTML=`${userchoice}${small_user} beats ${computerchoice}${small_comp}.You WIN!+ .`
-    document.getElementById("rock").style.backgroundColor='red';
+    result_p.innerHTML=`${userchoice}${small_user} beats ${computerchoice}${small_comp}.You WIN! .`
+   
  
 }
 
